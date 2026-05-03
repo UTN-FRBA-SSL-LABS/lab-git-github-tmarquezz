@@ -2,12 +2,14 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-int sumar(int a, int b) {
+int sumar(const int a, const int b) {
     return a + b;
 }
 
 /* ── restar — ya implementada ────────────────────────────────────────────── */
 
+// Esta función se encarga de restar dos numeros recibidos por parámetro.
+// Es importante el orden en el que se pasan los argumentos.
 int restar(int a, int b) {
     return a - b;
 }
